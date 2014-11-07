@@ -14,6 +14,12 @@
 		0CF5B3231A0D04ED00ABB95A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CF5B3221A0D04ED00ABB95A /* Images.xcassets */; };
 		0CF5B3261A0D04ED00ABB95A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CF5B3241A0D04ED00ABB95A /* LaunchScreen.xib */; };
 		0CF5B3321A0D04ED00ABB95A /* TicTactToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5B3311A0D04ED00ABB95A /* TicTactToeTests.m */; };
+		0CF5B3421A0D05B400ABB95A /* FBBoardPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5B3411A0D05B400ABB95A /* FBBoardPosition.m */; };
+		0CF5B3471A0D0D8700ABB95A /* FBTicTacToeGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5B3461A0D0D8700ABB95A /* FBTicTacToeGame.m */; };
+		0CF5B34B1A0D0FEC00ABB95A /* GameService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5B34A1A0D0FEC00ABB95A /* GameService.m */; };
+		0CF5B34E1A0D104C00ABB95A /* FBGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5B34D1A0D104C00ABB95A /* FBGame.m */; };
+		0CF5B3541A0D11A400ABB95A /* TicTacToeGameViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5B3531A0D11A400ABB95A /* TicTacToeGameViewModel.m */; };
+		0CF5B3571A0D122800ABB95A /* FBBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5B3561A0D122800ABB95A /* FBBoard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,18 @@
 		0CF5B32B1A0D04ED00ABB95A /* TicTactToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTactToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF5B3301A0D04ED00ABB95A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CF5B3311A0D04ED00ABB95A /* TicTactToeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTactToeTests.m; sourceTree = "<group>"; };
+		0CF5B3401A0D05B400ABB95A /* FBBoardPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBoardPosition.h; sourceTree = "<group>"; };
+		0CF5B3411A0D05B400ABB95A /* FBBoardPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBoardPosition.m; sourceTree = "<group>"; };
+		0CF5B3451A0D0D8700ABB95A /* FBTicTacToeGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTicTacToeGame.h; sourceTree = "<group>"; };
+		0CF5B3461A0D0D8700ABB95A /* FBTicTacToeGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTicTacToeGame.m; sourceTree = "<group>"; };
+		0CF5B3491A0D0FEC00ABB95A /* GameService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameService.h; sourceTree = "<group>"; };
+		0CF5B34A1A0D0FEC00ABB95A /* GameService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameService.m; sourceTree = "<group>"; };
+		0CF5B34C1A0D104C00ABB95A /* FBGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGame.h; sourceTree = "<group>"; };
+		0CF5B34D1A0D104C00ABB95A /* FBGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBGame.m; sourceTree = "<group>"; };
+		0CF5B3521A0D11A400ABB95A /* TicTacToeGameViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicTacToeGameViewModel.h; sourceTree = "<group>"; };
+		0CF5B3531A0D11A400ABB95A /* TicTacToeGameViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicTacToeGameViewModel.m; sourceTree = "<group>"; };
+		0CF5B3551A0D122800ABB95A /* FBBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBoard.h; sourceTree = "<group>"; };
+		0CF5B3561A0D122800ABB95A /* FBBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBoard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +99,8 @@
 		0CF5B3141A0D04ED00ABB95A /* TicTactToe */ = {
 			isa = PBXGroup;
 			children = (
+				0CF5B33E1A0D050A00ABB95A /* Model */,
+				0CF5B3511A0D117F00ABB95A /* ViewModel */,
 				0CF5B3191A0D04ED00ABB95A /* AppDelegate.h */,
 				0CF5B31A1A0D04ED00ABB95A /* AppDelegate.m */,
 				0CF5B31C1A0D04ED00ABB95A /* ViewController.h */,
@@ -117,6 +137,64 @@
 				0CF5B3301A0D04ED00ABB95A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CF5B33E1A0D050A00ABB95A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0CF5B3481A0D0FD500ABB95A /* Service */,
+				0CF5B33F1A0D051200ABB95A /* Entities */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0CF5B33F1A0D051200ABB95A /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				0CF5B3441A0D0D6B00ABB95A /* Game */,
+				0CF5B3431A0D05B900ABB95A /* Board */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		0CF5B3431A0D05B900ABB95A /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				0CF5B3551A0D122800ABB95A /* FBBoard.h */,
+				0CF5B3561A0D122800ABB95A /* FBBoard.m */,
+				0CF5B3401A0D05B400ABB95A /* FBBoardPosition.h */,
+				0CF5B3411A0D05B400ABB95A /* FBBoardPosition.m */,
+			);
+			name = Board;
+			sourceTree = "<group>";
+		};
+		0CF5B3441A0D0D6B00ABB95A /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				0CF5B34C1A0D104C00ABB95A /* FBGame.h */,
+				0CF5B34D1A0D104C00ABB95A /* FBGame.m */,
+				0CF5B3451A0D0D8700ABB95A /* FBTicTacToeGame.h */,
+				0CF5B3461A0D0D8700ABB95A /* FBTicTacToeGame.m */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		0CF5B3481A0D0FD500ABB95A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0CF5B3491A0D0FEC00ABB95A /* GameService.h */,
+				0CF5B34A1A0D0FEC00ABB95A /* GameService.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		0CF5B3511A0D117F00ABB95A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0CF5B3521A0D11A400ABB95A /* TicTacToeGameViewModel.h */,
+				0CF5B3531A0D11A400ABB95A /* TicTacToeGameViewModel.m */,
+			);
+			name = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +297,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CF5B3471A0D0D8700ABB95A /* FBTicTacToeGame.m in Sources */,
 				0CF5B31E1A0D04ED00ABB95A /* ViewController.m in Sources */,
 				0CF5B31B1A0D04ED00ABB95A /* AppDelegate.m in Sources */,
+				0CF5B34B1A0D0FEC00ABB95A /* GameService.m in Sources */,
+				0CF5B34E1A0D104C00ABB95A /* FBGame.m in Sources */,
 				0CF5B3181A0D04ED00ABB95A /* main.m in Sources */,
+				0CF5B3541A0D11A400ABB95A /* TicTacToeGameViewModel.m in Sources */,
+				0CF5B3421A0D05B400ABB95A /* FBBoardPosition.m in Sources */,
+				0CF5B3571A0D122800ABB95A /* FBBoard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +496,7 @@
 				0CF5B3371A0D04ED00ABB95A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CF5B3381A0D04ED00ABB95A /* Build configuration list for PBXNativeTarget "TicTactToeTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +505,7 @@
 				0CF5B33A1A0D04ED00ABB95A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
