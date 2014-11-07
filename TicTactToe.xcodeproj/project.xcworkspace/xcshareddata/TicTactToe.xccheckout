@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CA539E5B-6D7D-4921-8E46-0175400EE1BA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TicTactToe</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>553471808AD1EABFB620E87382DDBEC8B85A943C</key>
+		<string>https://github.com/fburel/TicTactToe.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TicTactToe.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>553471808AD1EABFB620E87382DDBEC8B85A943C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/fburel/TicTactToe.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>553471808AD1EABFB620E87382DDBEC8B85A943C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>553471808AD1EABFB620E87382DDBEC8B85A943C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TicTactToe</string>
+		</dict>
+	</array>
+</dict>
+</plist>
